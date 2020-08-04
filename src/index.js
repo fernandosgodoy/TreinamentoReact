@@ -2,9 +2,15 @@ import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Primeiro from './components/basics/Primeiro'
-import ChamaParametro from './components/basics/Parametros'
+import App from './App'
 
+const rootElement = document.getElementById('root');
+ReactDOM.render(
+    <App />,
+    rootElement
+)
+
+/*
 const rootElement = document.getElementById('root');
 ReactDOM.render(
     <div>
@@ -17,6 +23,7 @@ ReactDOM.render(
     </div>,
     rootElement
 )
+*/
 
 // Outra forma de escrita
 /**
