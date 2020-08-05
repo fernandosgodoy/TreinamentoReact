@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Sortear(props) {
-    var randomNumber = getRandom(
+    const randomNumber = getRandom(
         props.minimo,
         props.maximo
     )
@@ -20,5 +20,5 @@ export default function Sortear(props) {
 }
 
 function getRandom(min, max) {
-    return parseFloat(Math.random() * (max - min) + min).toFixed(0);
+    return parseFloat(Math.random() * (max - min) + min).toFixed(0)
 }
