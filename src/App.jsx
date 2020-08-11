@@ -12,14 +12,29 @@ export default function() {
         <br/>
         <h1>Aulas</h1>
 
-        <Card titulo="Exemplo de Card"></Card>
-        <Fragmento titulo="Segundo Componente" 
-            subtitulo="Este é outro parâmetro" />
-        <Primeiro></Primeiro>
-        <ChamaParametro 
-            titulo="Segundo Componente" 
-            subtitulo="Este é outro parâmetro" />
-        <hr/>
-        <Sortear minimo="1" maximo="60" />
+        <Card titulo="Desafio Aleatório">
+            <Sortear minimo="1" maximo="60" />
+            <Sortear minimo="1" maximo="60" />
+            <Sortear minimo="1" maximo="60" />
+            <Sortear minimo="1" maximo="60" />
+            <Sortear minimo="1" maximo="60" />
+            <Sortear minimo="1" maximo="60" />
+        </Card>
+
+        <Card titulo="Fragmento">
+            <Fragmento titulo="Segundo Componente" 
+                subtitulo="Este é outro parâmetro" />
+        </Card>
+
+        <Card titulo="Componente com Parâmetros">
+            <ChamaParametro 
+                titulo="Segundo Componente" 
+                subtitulo="Este é outro parâmetro" />
+        </Card>
+
+        <Card titulo="Primeiro Componente">
+            <Primeiro></Primeiro>
+        </Card>
+        
     </div>
 }

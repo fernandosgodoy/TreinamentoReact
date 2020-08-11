@@ -3,7 +3,8 @@
     border: 3px solid red;
     border-radius: 10px;
     overflow: hidden;
-} /*git upda*/
+    margin: 10px 0;
+} 
 
 .Card .Title {
     display: flex;
