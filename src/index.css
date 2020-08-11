@@ -1,4 +1,9 @@
 body {
     background-color: #222;
     color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 200;
 }
