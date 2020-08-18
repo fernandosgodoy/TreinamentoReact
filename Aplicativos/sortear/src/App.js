@@ -19,6 +19,10 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <div className="cards"> 
+        
+      </div>
     </div>
   );
 }
