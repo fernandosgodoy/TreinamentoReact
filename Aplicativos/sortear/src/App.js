@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Sorteio from './Components/sortearNumero';
 
 function App() {
   return (
@@ -21,7 +22,24 @@ function App() {
       </header>
 
       <div className="cards"> 
-        
+        <span>Dezenas sorteadas</span>
+        <ul>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+          <li><Sorteio min="1" max="25" /></li>
+        </ul>
       </div>
     </div>
   );
